@@ -22,3 +22,6 @@ sudo yum install google-cloud-sdk -y
 # Step 4: (set projectid)
 # gcloud projects list
 # gcloud config set project 
+
+# Step 5: login to cluster after it's created  (your cluster name )                               (your prokect id)
+# gcloud container clusters get-credentials devopsteam-gke-cluster --region us-central1 --project gke-cluster-333223
